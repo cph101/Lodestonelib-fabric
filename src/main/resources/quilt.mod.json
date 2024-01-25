@@ -1,0 +1,45 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "team.lodestar.lodestone",
+		"id": "lodestone",
+		"version": "${version}",
+		"metadata": {
+			"name": "LodestoneLib",
+			"description": "Library for all of the Lodestone team's projects, now 10% more gay",
+			"contributors": {
+				"Sammy": "Author",
+				"Arathain": "Porter"
+			},
+			"contact": {
+				"issues": "https://github.com/Arathain/LodestoneLib-Quilt/issues",
+				"sources": "https://github.com/Arathain/LodestoneLib-Quilt"
+			},
+			"icon": "assets/lodestone/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "team.lodestar.lodestone.LodestoneLib",
+			"client_init": "team.lodestar.lodestone.LodestoneLibClient"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.3"
+			}
+		]
+	},
+	"access_widener": "lodestone.accesswidener",
+	"mixin": "lodestone.mixins.json",
+	"modmenu": {
+		"badges": [ "library" ]
+	}
+}
