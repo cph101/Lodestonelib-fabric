@@ -14,3 +14,5 @@ modImplementation 'com.github.cph101:Lodestonelib-fabric:v0.0.2-1.20.1'
 Perhaps at some point.
 ### Will you backport it?
 No, except to 1.19.2, and as I require, not before
+### Will you update it?
+Yes, probably to 1.20.4 and 1.21 once it releases
